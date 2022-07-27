@@ -20,10 +20,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class Knife4jController {
 
 	/**
-	 * Knife4j 测试接口问好
+	 * Knife4j 测试接口
 	 */
 	@ApiImplicitParam(name = "name", value = "名称", required = true)
-	@ApiOperation(value = "")
+	@ApiOperation(value = "apioperation")
 	@ApiOperationSupport(order = 2, author = "ss")
 	@GetMapping("/knife4j/hi")
 	public ResponseEntity<String> hello(@RequestParam(value = "name") String name) {

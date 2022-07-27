@@ -46,6 +46,7 @@ public class Swagger2Configuration {
         return new ApiInfoBuilder().title("API接口文档")
                 .description("用户信息管理")
                 .version("1.0.0")
+                .contact(new Contact("xmxe","github.com.xmxe","abc@xmxe.com"))
                 .build();
     }
 

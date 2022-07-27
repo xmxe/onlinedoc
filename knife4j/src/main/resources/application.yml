@@ -1,7 +1,6 @@
 knife4j:
-# ????
   enable: true
-# ??????
+# 配置用户密码登录
   basic:
     enable: true
     username: test
