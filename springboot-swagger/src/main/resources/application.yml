@@ -1,5 +1,20 @@
 springfox:
   documentation:
+    # 指示 springfox 是否应自动启动扫描服务的标志
+    auto-startup: false
+    # 指示 springfox 是否应扫描服务以生成规范的标志
+    enabled: false
+
+    open-api:
+      # 禁用 openApi 相关 bean 的标志
+      enabled: false
+
+    swagger-ui:
+      # 禁止 swagger-ui 进行资源处理的标志。如果false，则没有 swagger-ui
+      enabled: false
     swagger:
       v2:
-        enabled: true
+        # 禁用 swagger 2 相关 bean 的标志
+        enabled: false
+        # 在使用库的 v3.0.0 或库的 2.9.x 版本生成模型之间切换的标志。如果 v3.0.0 未按预期工作，则可以将此标志更改为 false
+        use-model-v3: false
