@@ -4,3 +4,4 @@
 - [不用Swagger，那我用啥(SpringDoc相关)](https://mp.weixin.qq.com/s/Yo0Avou3W2XJX-_rsk-fkA)
 - [无需额外注解的SpringBoot API文档生成工具](https://github.com/YeDaxia/JApiDocs)
 - [JApiDocs](https://japidocs.agilestudio.cn/#/zh-cn/)
+- [谁家面试往死里问Swagger啊？](https://mp.weixin.qq.com/s/lvN2PLrNoYPMgtSi-hsG1A)
